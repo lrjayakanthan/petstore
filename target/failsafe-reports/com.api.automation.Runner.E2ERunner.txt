@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.api.automation.Runner.E2ERunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 34.392 sec <<< FAILURE! - in com.api.automation.Runner.E2ERunner
+Invalid input to create pet service(Validate Login Service)  Time elapsed: 1.676 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<405> but was:<200>
+
+Updating an unavailable pet id(Validate Login Service)  Time elapsed: 1.675 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+
+Validate the findbyStatus service for invalid status values(Validate Login Service)  Time elapsed: 1.457 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+

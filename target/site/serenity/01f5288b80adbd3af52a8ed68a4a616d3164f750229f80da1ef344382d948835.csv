@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Login Service","To validate the new pet creation in pet service","SUCCESS","2020-06-07T01:25:24.067092+05:30[Asia/Kolkata]","0.0","8.24"
+"Validate Login Service","Search for Pet id which is not available","SUCCESS","2020-06-07T01:25:32.306716+05:30[Asia/Kolkata]","0.0","3.17"
+"Validate Login Service","Validate the findbyStatus service for valid status values","SUCCESS","2020-06-07T01:25:38.861006+05:30[Asia/Kolkata]","0.0","9.93"

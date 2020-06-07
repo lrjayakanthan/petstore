@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Validate Login Service","Invalid input to create pet service","FAILURE","2020-06-07T01:25:35.495375+05:30[Asia/Kolkata]","0.0","1.68"
+"Validate Login Service","Updating an unavailable pet id","FAILURE","2020-06-07T01:25:37.178537+05:30[Asia/Kolkata]","0.0","1.68"
+"Validate Login Service","Validate the findbyStatus service for invalid status values","FAILURE","2020-06-07T01:25:48.798485+05:30[Asia/Kolkata]","0.0","1.54"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Validate Login Service" skipped="0" tests="6" time="26.24" timestamp="2020-06-07T01:25:24.067092+05:30[Asia/Kolkata]"><testcase name="To validate the new pet creation in pet service"/><testcase name="Search for Pet id which is not available"/><testcase name="Invalid input to create pet service"><failure message="expected:&lt;405&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;405&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;405&gt; but was:&lt;200&gt;
+com.api.automation.steps.PetServiceSteps.validateResponseForCreatePet(PetServiceSteps.java:37)
+✽.The status of the create pet response should be 405(src/test/resources/stories/apiFeatures/PetServiceScenarios.feature:55)
+</system-err></testcase><testcase name="Updating an unavailable pet id"><failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;404&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;404&gt; but was:&lt;200&gt;
+com.api.automation.steps.PetServiceSteps.validateStatusCodeForUpdate(PetServiceSteps.java:63)
+✽.I validate the response code should be 404 for update pet(src/test/resources/stories/apiFeatures/PetServiceScenarios.feature:71)
+</system-err></testcase><testcase name="Validate the findbyStatus service for valid status values"/><testcase name="Validate the findbyStatus service for invalid status values"><failure message="expected:&lt;400&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">expected:&lt;400&gt; but was:&lt;200&gt;</failure><system-err>expected:&lt;400&gt; but was:&lt;200&gt;
+com.api.automation.steps.PetServiceSteps.validateFindByStatusResponse(PetServiceSteps.java:74)
+✽.The response code should be 400 for findByStatus service(src/test/resources/stories/apiFeatures/PetServiceScenarios.feature:89)
+</system-err></testcase></testsuite>
